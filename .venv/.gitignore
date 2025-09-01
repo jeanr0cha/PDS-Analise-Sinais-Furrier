@@ -1,0 +1,28 @@
+git add .
+
+**Passo 4: Criar o "commit"**
+Um "commit" é como um ponto de salvamento, um pacote fechado com uma etiqueta. A mensagem depois do `-m` é a etiqueta que descreve o que você fez.
+```bash
+git commit -m "Versão inicial do projeto de análise de sinais"
+
+**Passo 5: Conectar seu PC ao repositório do GitHub**
+Agora vamos dizer ao Git local para onde ele deve enviar os arquivos. Use a URL que você copiou do site do GitHub.
+*(Substitua `SUA_URL_AQUI` pela URL do seu repositório)*
+```bash
+git remote add origin SUA_URL_AQUI
+Exemplo: `git remote add origin https://github.com/jeanr0cha/PDS-Analise-Sinais-Furrier.git`
+
+**Passo 6: Renomear a branch principal para "main"**
+É uma boa prática usar `main` como o nome da branch principal.
+```bash
+git branch -M main
+
+**Passo 7: Enviar o projeto para o GitHub!**
+Este é o comando final. Ele pega o "pacote" (commit) que você criou e o envia para o repositório no site do GitHub.
+```bash
+git push -u origin main
+Pode ser que o Git peça seu usuário e senha do GitHub na primeira vez.
+
+---
+
+**Pronto!** Após o último comando terminar, atualize a página do seu repositório no GitHub. Todos os seus arquivos (`furrier.py`, `README.md` e a pasta `img` com as imagens) estarão lá!
