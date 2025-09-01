@@ -26,16 +26,16 @@ Linguagem: Python
 📊 Resultados Visuais
 Abaixo estão os gráficos gerados pelo script, que ilustram o processo de amostragem.
 
-![Sinal Contínuo Original](exemplo_furrier\Figure_1.png) 
+![Sinal Contínuo Original](img\Figure_1.png) 
 Este é o sinal senoidal de 5 Hz que serve como base para o estudo.
 
-![Amostragem com Taxa de 100 amostras/s](exemplo_furrier\Figure_2.png)  
+![Amostragem com Taxa de 100 amostras/s](img\Figure_2.png)  
 Com uma taxa alta, a representação do sinal é bastante fiel ao original.
 
-![Amostragem com Taxa de 50 amostras/s](exemplo_furrier\Figure_3.png)   
+![Amostragem com Taxa de 50 amostras/s](img\Figure_3.png)   
 Reduzindo a taxa pela metade, ainda conseguimos reconstruir o sinal, pois 50 Hz > 10 Hz
 
-![Amostragem com Taxa de 25 amostras/s](exemplo_furrier\Figure_4.png)    
+![Amostragem com Taxa de 25 amostras/s](img\Figure_4.png)    
 Com 25 amostras por segundo, a forma do sinal começa a ficar menos definida, mas a frequência fundamental ainda é preservada.
 
 📂 Clone do Repositório
